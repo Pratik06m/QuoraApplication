@@ -1,0 +1,34 @@
+.feed {
+    max-width: 600px;
+    padding: 20px;
+    margin-top: -20px;
+  }
+  
+  .post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin: 0%;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .post-title {
+    font-weight: bold;
+  }
+  
+  .post-date {
+    color: #888;
+  }
+  
+  .post-content {
+    margin-bottom: 5px;
+  }
+  
+  .post-extra {
+    color: #888;
+  }
+  

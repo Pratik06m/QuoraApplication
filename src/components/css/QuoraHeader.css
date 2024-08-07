@@ -126,6 +126,7 @@
   
   .modal__title {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 5px;
     border-bottom: 1px solid rgba(187, 187, 187, 0.5);
@@ -194,7 +195,7 @@
     align-items: center;
   }
   
-  .modal__buttons > .cancle {
+  .modal__buttons > .cancel {
     margin-top: 10px;
     border: none;
     outline: none;
@@ -235,4 +236,82 @@
     .qHeader__input {
       display: none;
     }
+  }
+  .customOverlay {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .customModal {
+    width: 600px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #E4E6EB;
+    border-radius: 8px;
+  }
+  
+  .modal__header {
+    /* display: flex; */
+    border-bottom: 1px solid #3A3B3C;
+  
+    /* padding-bottom: 10px; */
+  }
+  
+  .modal__tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .modal__tabs > h3 {
+    display: flex;
+    background: none;
+    border: none;
+    color: black;
+    width: 100%;
+    justify-content:center;
+    padding: 10px 20px;
+    cursor: pointer;  
+  }
+  
+  .modal__tabs h3.active {
+    border-bottom: 2px solid #2D88FF;
+    border-width: medium;
+  }
+  
+  .modal__body {
+    padding: 20px 0;
+  }
+  
+  .modal__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal__info .avatar {
+    margin-right: 10px;
+  }
+  
+  .modal__scope {
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal__scope p {
+    margin-left: 5px;
+  }
+  
+  .modal__Field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal__footer {
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+    padding-top: 10px;
+    border-top: 1px solid #3A3B3C;
   }
